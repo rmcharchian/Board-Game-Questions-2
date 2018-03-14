@@ -26,5 +26,5 @@ Link to software needed to install the app
 
 ## Task List
 
-[ ] Confirm console.log when running on port
-[ ] Set up Postico DB
+- [ ] Confirm console.log when running on port
+- [ ] Set up Postico DB
