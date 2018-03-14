@@ -1,12 +1,17 @@
 var express = require('express');
 var app = express();
+var bodyParser = require('body-parser');
 
 //var heroes = require('./routes/heroes');
 //var powers = require('./routes/powers');
 
 var port = 5000;
 
-app.use(express.static('public'));
+//Body parser middleware
+//app.use(bodyParser.json());
+//app.use(bodyPaser.urlencoded({extended: true}));
+
+app.use(express.static('./public'));
 
 //app.use('/heroes', heroes);
 //app.use('/powers', powers);
