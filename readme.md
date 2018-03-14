@@ -28,3 +28,11 @@ Link to software needed to install the app
 
 - [ ] Confirm console.log when running on port
 - [ ] Set up Postico DB
+- [ ] Home Page
+    - [ ] Enter Board Game Name Text Box and Button
+    - [ ] Button - Our Open Questions
+    - [ ] Button - Contribute a new Question/Answer
+
+- [ ] DB
+    - [ ] What tables will I need?
+    - [ ] What data will I need in each table?
