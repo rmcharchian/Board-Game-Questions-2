@@ -2,6 +2,10 @@
 
 ## Built With
 
+AngularJS
+AngularRoute
+Bootstrap
+
 ## Getting Started
 
 Note how to open and run if hosted
