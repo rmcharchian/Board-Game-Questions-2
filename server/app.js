@@ -5,6 +5,8 @@ var bodyParser = require('body-parser');
 //var heroes = require('./routes/heroes');
 //var powers = require('./routes/powers');
 
+var indexRouter = require('./routes/questions.router.js')
+
 var port = 5000;
 
 //Body parser middleware
@@ -12,6 +14,8 @@ var port = 5000;
 //app.use(bodyPaser.urlencoded({extended: true}));
 
 app.use(express.static('./public'));
+
+app.use('/')
 
 //app.use('/heroes', heroes);
 //app.use('/powers', powers);
